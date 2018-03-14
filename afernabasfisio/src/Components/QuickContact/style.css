@@ -1,0 +1,12 @@
+.quick-contact {
+    color:#0099cc;
+    background-color: black;
+    border-bottom:1px solid rgba(32, 131, 245, 0.822);
+}
+.quick-contact a {
+    color:#0099cc;
+}
+.highlight:hover, .quick-contact a:hover{
+    color:white;
+    text-decoration: none;
+}

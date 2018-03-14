@@ -1,0 +1,17 @@
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(1, 147, 245, 0.884) !important; */
+    font-size: 190%;
+}
+
+.active{
+    color:red;
+}
