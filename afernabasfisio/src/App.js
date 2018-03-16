@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import QuickContact from './Components/QuickContact/QuickContact.js';
 import Header from './Components/Header/Header.js';
 import Logo from './Components/Logo/Logo.js';
+import CV from './Components/Sections/CV/CV.js';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <QuickContact/>
         <Header/>
         <Logo/>
+        <CV/>
       </div>
     );
   }

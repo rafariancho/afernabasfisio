@@ -1,0 +1,11 @@
+.MenuContainer{
+    flex:1;
+    justify-content: center;
+}
+.MenuContainer h1{
+    color:#1DB1E7;
+    font-size: 350%;
+    text-align: left;
+    margin-top:50px;
+    margin-left:20px;
+}

@@ -1,11 +1,18 @@
 .quick-contact {
-    color:#0099cc;
+    color:#1DB1E7;
     background-color: black;
     border-bottom:1px solid rgba(32, 131, 245, 0.822);
 }
 .quick-contact a {
     color:#0099cc;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded
 }
+.highlight{
+    margin-left:10px;
+}
+
 .highlight:hover, .quick-contact a:hover{
     color:white;
     text-decoration: none;
