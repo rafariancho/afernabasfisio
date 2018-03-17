@@ -1,6 +1,8 @@
 .MenuContainer{
     flex:1;
     justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: 1px dashed #1DB1E7;
 }
 .MenuContainer h1{
     color:#1DB1E7;
@@ -9,3 +11,8 @@
     margin-top:50px;
     margin-left:20px;
 }
+.MenuContainer h2{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #999;
+  }

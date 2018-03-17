@@ -26,3 +26,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.CVList{
+  margin-top: 30px;
+  text-align: start;
+  list-style-type: square; 
+  font-size:120%;
+  line-height: 140%;
+}
+
+.CVList li{
+  margin-bottom: 10px;
+}
+
+.margin-lock-left{
+  margin-left:50px;
+}

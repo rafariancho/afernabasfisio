@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import Menu from '../../Menu/Menu.js';
-import './style.css';
 
 class CV extends Component {
     render() {
