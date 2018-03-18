@@ -5,6 +5,7 @@ import Logo from './Components/Logo/Logo.js';
 import CV from './Components/Sections/CV/CV.js';
 import Servicios from './Components/Sections/Servicios/Servicios.js';
 import HorarioYTarifas from './Components/Sections/HorarioYTarifas/HorarioYTarifas.js';
+import Instalaciones from './Components/Sections/Instalaciones/Instalaciones.js';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Servicios/>
         <CV/>
         <HorarioYTarifas/>
+        <Instalaciones/>
       </div>
     );
   }
