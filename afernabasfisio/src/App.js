@@ -14,8 +14,8 @@ class App extends Component {
         <QuickContact/>
         <Header/>
         <Logo/>
-        <CV/>
         <Servicios/>
+        <CV/>
         <HorarioYTarifas/>
       </div>
     );

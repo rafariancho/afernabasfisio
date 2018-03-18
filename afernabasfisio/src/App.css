@@ -39,6 +39,14 @@
   margin-bottom: 10px;
 }
 
-.margin-lock-left{
-  margin-left:50px;
+.margin-block-left{
+  margin-left:10%;;
+}
+
+.margin-block-top{
+  margin-top:30px;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
 }

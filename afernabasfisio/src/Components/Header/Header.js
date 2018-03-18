@@ -35,12 +35,9 @@ class Header extends Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
-              <NavItem onClick={()=>alert('active')}>
+              {/* <NavItem onClick={()=>alert('active')}>
                 <NavLink href="#0">Inicio</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#1">Curriculum</NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="#2">Servicios</NavLink>
               </NavItem>
@@ -48,28 +45,14 @@ class Header extends Component {
                 <NavLink href="#3">Instalaciones</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="#1">Curriculum</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="#4">Horarios y tarifas</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#5">Contacto</NavLink>
               </NavItem>
-              {/* <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu >
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown> */}
             </Nav>
           </Collapse>
         </Navbar>

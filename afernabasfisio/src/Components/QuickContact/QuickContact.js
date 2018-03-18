@@ -29,7 +29,7 @@ class QuickContact extends Component {
       <div className="sticky-top d-flex flex-row justify-content-around justify-content-md-end align-items-center quick-contact">
         
           <span className="highlight">
-            <Mobile size={16} style={{paddingBottom:2}}/> 625 147 630 <Whatsapp size={16} style={{paddingBottom:2}}/>
+            <a href="https://api.whatsapp.com/send?phone=34625147630"><Mobile size={18} style={{paddingBottom:4}}/> 625 147 630  <Whatsapp size={18} style={{paddingBottom:4}}/></a>
           </span>
           <span className="highlight">
             <a href="mailto://fabascalfisioterapia@gmail.com" className="d-none d-md-inline">
