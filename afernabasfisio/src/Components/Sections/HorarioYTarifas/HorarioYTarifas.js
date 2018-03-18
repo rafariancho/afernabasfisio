@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import Menu from '../../Menu/Menu.js';
-import Card from './../Servicios/Card/Card.js';
+import Card from './Card/Card.js';
 
 class HorarioYTarifas extends Component {
     render() {
