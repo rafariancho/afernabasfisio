@@ -5,7 +5,7 @@ import Card from './Card/Card.js';
 class HorarioYTarifas extends Component {
     render() {
       return (
-        <Menu Title="Horario y tarifas"> 
+        <Menu Title="Horario y tarifas" MenuId="HorarioYTarifas" > 
             <h2>Horario</h2>
             <h5 class="margin-block-left">Lunes a Viernes de 9:00 a 12:15 y 16:00 a 21:00</h5>
 

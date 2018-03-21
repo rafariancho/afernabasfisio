@@ -4,7 +4,7 @@ import Menu from '../../Menu/Menu.js';
 class Servicios extends Component {
     render() {
       return (
-        <Menu Title="Servicios"> 
+        <Menu Title="Servicios" MenuId="Servicios" > 
             <h2>Fisioterapia</h2>
             <ul className="CVList margin-block-left">
                 <li>Terapia Manual</li> 

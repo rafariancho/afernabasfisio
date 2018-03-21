@@ -39,19 +39,16 @@ class Header extends Component {
                 <NavLink href="#0">Inicio</NavLink>
               </NavItem> */}
               <NavItem>
-                <NavLink href="#2">Servicios</NavLink>
+                <NavLink href="#Servicios">Servicios</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#3">Instalaciones</NavLink>
+                <NavLink href="#Instalaciones">Instalaciones</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#1">Curriculum</NavLink>
+                <NavLink href="#Curriculum">Curriculum</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#4">Horarios y tarifas</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#5">Contacto</NavLink>
+                <NavLink href="#HorarioYTarifas">Horarios y tarifas</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

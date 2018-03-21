@@ -104,7 +104,7 @@ class Instalaciones extends Component {
   render() {
 
     return (
-      <Menu Title="Instalaciones">
+      <Menu Title="Instalaciones" MenuId="Instalaciones" >
         <Gallery images={DEFAULT_IMAGES.map(({ caption, id, orientation, useForDemo }) => ({
           src: makeUnsplashSrc(id),
           thumbnail: makeUnsplashThumbnail(id, orientation),

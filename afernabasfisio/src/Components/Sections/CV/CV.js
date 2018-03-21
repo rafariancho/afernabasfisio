@@ -4,7 +4,7 @@ import Menu from '../../Menu/Menu.js';
 class CV extends Component {
     render() {
       return (
-        <Menu Title="Curriculum"> 
+        <Menu Title="Curriculum" MenuId="Curriculum"> 
             <ul className="CVList">
                 <li>Diplomado en Fisioterapia por la Universidad de Gimbernat-Cantabria.</li> 
                 <li>Master Oficial en Terapia Manual por la Universidad Europea de Madrid (UEM).</li> 
