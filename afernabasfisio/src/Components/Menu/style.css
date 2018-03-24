@@ -31,3 +31,20 @@
     text-align: justify;
     color: #999;
  }
+
+@media only screen and (max-width: 600px) {
+    .MenuContainer{
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    .MenuContainer h1{    
+        font-size: 200% !important;
+    }
+    .MenuContainer h2{    
+        font-size: 160% !important;
+        margin-top: 30px;
+    }
+    .MenuContainer h5{
+        font-size: 110%;
+     }
+}

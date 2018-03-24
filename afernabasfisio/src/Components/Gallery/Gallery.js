@@ -113,7 +113,8 @@ Gallery.propTypes = {
 
 const gutter = {
 	small: 2,
-	large: 4,
+	large: '0.7%',
+	xlarge: '0.8%',
 };
 const classes = StyleSheet.create({
 	gallery: {
@@ -138,6 +139,11 @@ const classes = StyleSheet.create({
 		'@media (min-width: 500px)': {
 			paddingRight: gutter.large,
 			paddingBottom: gutter.large,
+        },
+        
+		'@media (min-width: 1200px)': {
+			paddingRight: gutter.xlarge,
+			paddingBottom: gutter.xlarge,
 		},
 	},
 
@@ -150,6 +156,14 @@ const classes = StyleSheet.create({
 	},
 	main_portrait: {
         width: '38%',
+        paddingBottom: 0,
+		'@media (min-width: 500px)': {           
+			paddingBottom: 0,
+        },
+                
+		'@media (min-width: 1000px)': {
+			paddingBottom: 0,
+		},
 	},
 	square: {
 		paddingBottom: 0,

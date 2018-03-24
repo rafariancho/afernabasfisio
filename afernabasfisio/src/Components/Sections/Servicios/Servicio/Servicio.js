@@ -10,7 +10,7 @@ class Servicio extends Component {
                 <div class="card-header">
                     <h4 class="font-weight-normal">{this.props.title}</h4>
                 </div>
-                <div>
+                <div className="content">
                     {this.props.children}
                 </div>
             </div>

@@ -6,7 +6,9 @@ class Logo extends Component {
   render() {
     return (
       <div className="ImgContainer box-shadow">
-        <div className="layer1"><img src={require("../../imgs/Logo.png")} width="35%" className="logo" /> </div>
+        <div className="layer1">
+          <img src={require("../../imgs/Logo.png")} width="35%" className="logo"/> 
+        </div>
         <Parallax
           //className="custom-class"
           offsetYMax={0}

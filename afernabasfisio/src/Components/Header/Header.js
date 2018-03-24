@@ -10,8 +10,9 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
-  import './style.css';
+  DropdownItem
+} from 'reactstrap';
+import './style.css';
 
 class Header extends Component {
   constructor(props) {
@@ -31,13 +32,11 @@ class Header extends Component {
     return (
       <div>
         <Navbar color="faded" light expand="md">
-          {/* <NavbarBrand href="/">reactstrap</NavbarBrand> */}
           <NavbarToggler onClick={this.toggle} />
+          {/* <NavbarBrand href="/">
+          </NavbarBrand> */}
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
-              {/* <NavItem onClick={()=>alert('active')}>
-                <NavLink href="#0">Inicio</NavLink>
-              </NavItem> */}
               <NavItem>
                 <NavLink href="#Servicios">Servicios</NavLink>
               </NavItem>
