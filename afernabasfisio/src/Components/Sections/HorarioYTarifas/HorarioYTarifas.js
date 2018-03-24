@@ -13,7 +13,7 @@ class HorarioYTarifas extends Component {
             <div class="alert alert-primary  margin-block-left" role="alert">
               Como verás disponemos de bonos de 10 sesiones en algunos tratamientos así como sesiones sueltas. Para tratamientos de larga duración consultar precio.
               <br/><br/>
-              En caso de cualquier duda, contacta con nosotros a través de nuestro correo electrónico o teléfono
+              En caso de cualquier duda, contacta con nosotros a través de nuestro correo electrónico o teléfono.
             </div>
             <h2>Fisioterapia y Osteopatia</h2>
             <div className="margin-block-left">
