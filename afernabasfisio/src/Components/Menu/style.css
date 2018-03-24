@@ -19,7 +19,15 @@
     color: #999;
  }
  .MenuContainer h5{
-    font-size: 140%;
+    font-size: 130%;
     margin-bottom: 30px;
+    color: #999;
+ }
+
+ .MenuContainer p{
+    font-size: 120%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
     color: #999;
  }

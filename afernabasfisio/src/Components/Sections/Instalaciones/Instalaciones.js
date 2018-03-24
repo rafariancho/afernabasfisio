@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import Menu from '../../Menu/Menu.js';
 import Gallery from '../../Gallery/Gallery.js';
 import consulta from "../../../imgs/consulta.jpg";
-import gimnasio from "../../../imgs/gimnasio.png";
+import gimnasio from "../../../imgs/instalaciones/gimnasio.png";
+import IMG_4833 from "../../../imgs/instalaciones/IMG_4833.JPG";
+import IMG_4838 from "../../../imgs/instalaciones/IMG_4838.JPG";
+import IMG_4841 from "../../../imgs/instalaciones/IMG_4841.jpg";
+import IMG_4849 from "../../../imgs/instalaciones/IMG_4849.JPG";
+import IMG_4855 from "../../../imgs/instalaciones/IMG_4855.JPG";
+import IMG_4866 from "../../../imgs/instalaciones/IMG_4866.JPG";
+import IMG_4869 from "../../../imgs/instalaciones/IMG_4869.jpg";
 import "./style.css";
 
 function makeUnsplashSrc(id) {
@@ -20,26 +27,48 @@ return makeUnsplashSrc(id);
   // return `${makeUnsplashSrc(id)}?dpr=2&auto=format&crop=faces&fit=crop&${dimensions}`;
 }
 
+
 const DEFAULT_IMAGES = [
   {
-    id: 0,
-    src: consulta,
-    caption: 'consulta', orientation: 'portrait', useForDemo: true
+    id: 8,
+    src: IMG_4869,
+    caption: 'IMG_4869', orientation: 'main_portrait', useForDemo: true
+  },
+  
+  {
+    id: 2,
+    src: IMG_4833,
+    caption: 'IMG_4833', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 3,
+    src: IMG_4838,
+    caption: 'IMG_4838', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 5,
+    src: IMG_4849,
+    caption: 'IMG_4849', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 6,
+    src: IMG_4855,
+    caption: 'IMG_4855', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 7,
+    src: IMG_4866,
+    caption: 'IMG_4866', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 4,
+    src: IMG_4841,
+    caption: 'IMG_4841', orientation: 'portrait', useForDemo: true
   },
   {
     id: 1,
     src: gimnasio,
-    caption: 'gimnasio', orientation: 'landscape', useForDemo: true
-  },
-  {
-    id: 2,
-    src: gimnasio,
-    caption: 'gimnasio', orientation: 'landscape', useForDemo: true
-  },
-  {
-    id: 3,
-    src: gimnasio,
-    caption: 'gimnasio', orientation: 'landscape', useForDemo: true
+    caption: 'gimnasio', orientation: 'portrait', useForDemo: true
   }
 ];
 
@@ -105,6 +134,8 @@ class Instalaciones extends Component {
 
     return (
       <Menu Title="Instalaciones" MenuId="Instalaciones" >
+      <p className="margin-block-left">Centro de fisioterapia y osteopatía donde cada persona recibirá tratamiento de máxima calidad adaptado a sus necesidades específicas. </p>
+      <p className="margin-block-left gallery-spacer">
         <Gallery images={DEFAULT_IMAGES.map(({ caption, id, orientation, useForDemo }) => ({
           src: makeUnsplashSrc(id),
           thumbnail: makeUnsplashThumbnail(id, orientation),
@@ -115,6 +146,8 @@ class Instalaciones extends Component {
           orientation,
           useForDemo,
         }))} />
+      </p>
+      <p className="margin-block-left">Evaluamos tu problema, estudiaremos como te mueves y la posible relación con tu dolor, y pautaremos el tratamiento necesario para cada persona gracias a una instalaciones que nos permiten trabajar en diferentes entornos (sala de tratamiento, sala de readaptación y trabajo funcional o el gimnasio).</p>
       </Menu>
     );
   }

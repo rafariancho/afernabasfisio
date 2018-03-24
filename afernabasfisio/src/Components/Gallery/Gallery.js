@@ -134,8 +134,6 @@ const classes = StyleSheet.create({
 		paddingRight: gutter.small,
 		paddingBottom: gutter.small,
         overflow: 'hidden',
-        // maxWidth: 150,
-        // maxHeight: 150,
 
 		'@media (min-width: 500px)': {
 			paddingRight: gutter.large,
@@ -145,10 +143,13 @@ const classes = StyleSheet.create({
 
 	// orientation
 	landscape: {
-		width: '20%',
+		width: '28%',
 	},
 	portrait: {
-        width: '40%',
+        width: '14%'
+	},
+	main_portrait: {
+        width: '38%',
 	},
 	square: {
 		paddingBottom: 0,

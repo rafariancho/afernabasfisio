@@ -11,8 +11,6 @@ class HorarioYTarifas extends Component {
 
             <h2>Tarifas por tratamientos: </h2>
             <div class="alert alert-primary  margin-block-left" role="alert">
-              Aquí tienes todos nuestros precios por tratamientos.
-              <br/><br/>
               Como verás disponemos de bonos de 10 sesiones en algunos tratamientos así como sesiones sueltas. Para tratamientos de larga duración consultar precio.
               <br/><br/>
               En caso de cualquier duda, contacta con nosotros a través de nuestro correo electrónico o teléfono

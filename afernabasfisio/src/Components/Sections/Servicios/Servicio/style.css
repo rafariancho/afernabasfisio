@@ -1,0 +1,16 @@
+.servicio{
+    text-align:center;
+    align-items: center;
+    min-width: 320px;
+    padding-bottom:50px;
+}
+.servicio h4{
+    color: #777;
+}
+.servicio ul{
+    text-align: start;
+    list-style-type: square; 
+    font-size:120%;
+    line-height: 140%;
+    color: #777;
+}
