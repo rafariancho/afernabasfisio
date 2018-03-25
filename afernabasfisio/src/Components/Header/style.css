@@ -14,3 +14,20 @@
 .active{
     color:red;
 }
+
+@supports  (-webkit-overflow-scrolling: touch) {
+    .ios{
+        display: none !important;
+    }
+    .nonIos{
+        display: inline-block !important;
+    }
+}
+@supports not (-webkit-overflow-scrolling: touch) {
+    .nonIos{
+        display: none !important;
+    }
+    .ios{
+        display: inline-block !important;
+    }
+}

@@ -40,13 +40,19 @@ class QuickContact extends Component {
             </a> 
           </span>
           <span className="highlight">
-          <a onClick={() => gotoElement("App")}>
+          <a className="nonIos" onClick={() => gotoElement("App")}>
+            <Home size={20} style={{paddingBottom:2}}/>
+          </a> 
+          <a className="ios"href="#App">
             <Home size={20} style={{paddingBottom:2}}/>
           </a> 
           <a href="mailto:fabascalfisioterapia@gmail.com" className="d-inline d-md-none">
             <Email size={20} style={{paddingBottom:2}}/>
           </a> 
-          <a  onClick={() => gotoElement("maps")} >
+          <a className="nonIos" onClick={() => gotoElement("maps")} >
+            <Map size={20} style={{paddingBottom:2}}/>
+          </a>
+          <a className="ios" href="#maps" >
             <Map size={20} style={{paddingBottom:2}}/>
           </a>
           <a href="https://www.facebook.com/profile.php?id=182228369050915&ref=br_rs" >

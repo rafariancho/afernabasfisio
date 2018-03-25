@@ -7,7 +7,7 @@ class HorarioYTarifas extends Component {
       return (
         <Menu Title="Horario y tarifas" MenuId="HorarioYTarifas" > 
             <h2>Horario</h2>
-            <h5 class="margin-block-left">Lunes a Viernes de 9:00 a 12:15 y 16:00 a 21:00</h5>
+            <h5 class="margin-block-left">Lunes a Viernes de 9:00 a 13:00 y 16:00 a 21:00</h5>
 
             <h2>Tarifas por tratamientos: </h2>
             <div class="alert alert-primary  margin-block-left" role="alert">

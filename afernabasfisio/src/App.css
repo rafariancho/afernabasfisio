@@ -73,3 +73,21 @@
       margin-left:0px !important;
     }
 }
+
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  .ios{
+      display: none !important;
+  }
+  .nonIos{
+      display: inline-block !important;
+  }
+}
+@supports (-webkit-overflow-scrolling: touch) {
+  .nonIos{
+      display: none !important;
+  }
+  .ios{
+      display: inline-block !important;
+  }
+}
