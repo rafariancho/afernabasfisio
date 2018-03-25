@@ -1,74 +1,108 @@
 import React, { Component } from 'react';
 import Menu from '../../Menu/Menu.js';
 import Gallery from '../../Gallery/Gallery.js';
-import consulta from "../../../imgs/consulta.jpg";
-import gimnasio from "../../../imgs/instalaciones/gimnasio.png";
-import IMG_4833 from "../../../imgs/instalaciones/IMG_4833.JPG";
-import IMG_4838 from "../../../imgs/instalaciones/IMG_4838.JPG";
-import IMG_4841 from "../../../imgs/instalaciones/IMG_4841.jpg";
-import IMG_4849 from "../../../imgs/instalaciones/IMG_4849.JPG";
-import IMG_4855 from "../../../imgs/instalaciones/IMG_4855.JPG";
-import IMG_4866 from "../../../imgs/instalaciones/IMG_4866.JPG";
-import IMG_4869 from "../../../imgs/instalaciones/IMG_4869.jpg";
 import "./style.css";
 
 function makeUnsplashSrc(id) {
   let image = DEFAULT_IMAGES.find((x) => x.id == id);
   return image.src;
 }
-function makeUnsplashSrcSet(id, size) {
-  return `https://images.unsplash.com/photo-${id}?dpr=2&auto=format&w=${size} ${size}w`;
+
+function makeUnsplashThumbnailSrc(id) {
+  let image = THUMBNAIL_IMAGES.find((x) => x.id == id);
+  return image.src;
 }
+
 function makeUnsplashThumbnail(id, orientation = 'landscape') {
-  const dimensions = orientation === 'square'
-    ? 'w=300&h=300'
-    : 'w=240&h=159';
-return makeUnsplashSrc(id);
-  // return `${makeUnsplashSrc(id)}?dpr=2&auto=format&crop=faces&fit=crop&${dimensions}`;
+    return makeUnsplashThumbnailSrc(id);
 }
 
 
-const DEFAULT_IMAGES = [
+const THUMBNAIL_IMAGES = [
   {
-    id: 8,
-    src: IMG_4869,
-    caption: 'IMG_4869', orientation: 'main_portrait', useForDemo: true
+    id: 1,
+    src: require("../../../imgs/thumbs/IMG_4869.jpg"),
+    caption: 'instalaciones', orientation: 'main_portrait', useForDemo: true
   },
   
   {
     id: 2,
-    src: IMG_4833,
-    caption: 'IMG_4833', orientation: 'landscape', useForDemo: true
+    src: require("../../../imgs/thumbs/IMG_4833.jpg"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
   },
   {
     id: 3,
-    src: IMG_4838,
-    caption: 'IMG_4838', orientation: 'landscape', useForDemo: true
-  },
-  {
-    id: 5,
-    src: IMG_4849,
-    caption: 'IMG_4849', orientation: 'landscape', useForDemo: true
-  },
-  {
-    id: 6,
-    src: IMG_4855,
-    caption: 'IMG_4855', orientation: 'landscape', useForDemo: true
-  },
-  {
-    id: 7,
-    src: IMG_4866,
-    caption: 'IMG_4866', orientation: 'landscape', useForDemo: true
+    src: require("../../../imgs/thumbs/IMG_4838.jpg"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
   },
   {
     id: 4,
-    src: IMG_4841,
-    caption: 'IMG_4841', orientation: 'portrait', useForDemo: true
+    src: require("../../../imgs/thumbs/IMG_4849.jpg"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
   },
   {
+    id: 5,
+    src: require("../../../imgs/thumbs/IMG_4855.jpg"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 6,
+    src: require("../../../imgs/thumbs/IMG_4866.jpg"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 7,
+    src: require("../../../imgs/thumbs/IMG_4841.jpg"),
+    caption: 'instalaciones', orientation: 'portrait', useForDemo: true
+  },
+  {
+    id: 8,
+    src: require("../../../imgs/thumbs/gimnasio.jpg"),
+    caption: 'instalaciones', orientation: 'portrait', useForDemo: true
+  }
+];
+
+const DEFAULT_IMAGES = [
+  {
     id: 1,
-    src: gimnasio,
-    caption: 'gimnasio', orientation: 'portrait', useForDemo: true
+    src: require("../../../imgs/instalaciones/IMG_4869.jpg"),
+    caption: 'instalaciones', orientation: 'main_portrait', useForDemo: true
+  },
+  
+  {
+    id: 2,
+    src: require("../../../imgs/instalaciones/IMG_4833.JPG"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 3,
+    src: require("../../../imgs/instalaciones/IMG_4838.JPG"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 4,
+    src: require("../../../imgs/instalaciones/IMG_4849.JPG"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 5,
+    src: require("../../../imgs/instalaciones/IMG_4855.JPG"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 6,
+    src: require("../../../imgs/instalaciones/IMG_4866.JPG"),
+    caption: 'instalaciones', orientation: 'landscape', useForDemo: true
+  },
+  {
+    id: 7,
+    src: require("../../../imgs/instalaciones/IMG_4841.jpg"),
+    caption: 'instalaciones', orientation: 'portrait', useForDemo: true
+  },
+  {
+    id: 8,
+    src: require("../../../imgs/instalaciones/gimnasio.png"),
+    caption: 'instalaciones', orientation: 'portrait', useForDemo: true
   }
 ];
 
