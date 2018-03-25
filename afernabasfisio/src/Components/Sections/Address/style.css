@@ -1,0 +1,28 @@
+footer{
+    box-shadow: 8px 6px -6px 0  rgba(68, 68, 68, 0.144);
+    background-color:rgba(0, 0, 0, 0.03);
+    box-shadow: 0px -0px 30px 0px rgba(68, 68, 68, 0.4);
+    padding:10px;
+    opacity: 0.95;
+    padding-bottom:30px;
+    margin-top:50px;
+}
+.address{
+    padding-top:15px;
+    padding-bottom:25px;
+    text-align:center;
+    font-size: 120%;
+    color: #777;
+}
+.map{
+    border: 1px solid #CCC;
+}
+
+@media only screen and (max-width: 800px) {
+    .address{
+        font-size: 80%;
+    }
+    .address strong{
+        display: block;
+    }
+}

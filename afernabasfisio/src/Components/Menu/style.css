@@ -5,6 +5,9 @@
     padding-bottom: 50px;
     border-bottom: 1px dashed #1DB1E7;
 }
+.MenuContainer:last-of-type{
+    border-bottom: 0px;
+}
 .MenuContainer h1{
     color:#1DB1E7;
     font-size: 300%;

@@ -7,6 +7,7 @@ import CV from './Components/Sections/CV/CV.js';
 import Servicios from './Components/Sections/Servicios/Servicios.js';
 import HorarioYTarifas from './Components/Sections/HorarioYTarifas/HorarioYTarifas.js';
 import Instalaciones from './Components/Sections/Instalaciones/Instalaciones.js';
+import Address from './Components/Sections/Address/Address.js';
 import './App.css';
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <CV />
           <HorarioYTarifas />
           <Instalaciones />
+          <Address />
         </div>
       </ParallaxProvider>
     );
