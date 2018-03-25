@@ -13,6 +13,7 @@ import {
   DropdownItem
 } from 'reactstrap';
 import './style.css';
+import {gotoElement} from '../../Helpers/NavigationHelper.js';
 
 class Header extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class Header extends Component {
       isOpen: false
     };
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
@@ -30,7 +32,7 @@ class Header extends Component {
   }
   render() {
     return (
-      <div>
+      <div id="header">
         <Navbar color="faded" light expand="md">
           <NavbarToggler onClick={this.toggle} />
           {/* <NavbarBrand href="/">
@@ -38,16 +40,16 @@ class Header extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
               <NavItem>
-                <NavLink href="#Servicios">Servicios</NavLink>
+                <NavLink className="cursor-link" onClick={() => gotoElement("Servicios")}>Servicios</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Instalaciones">Instalaciones</NavLink>
+                <NavLink className="cursor-link" onClick={() => gotoElement("Instalaciones")}>Instalaciones</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Curriculum">Curriculum</NavLink>
+                <NavLink className="cursor-link" onClick={() => gotoElement("Curriculum")}>Curriculum</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#HorarioYTarifas">Horarios y tarifas</NavLink>
+                <NavLink className="cursor-link" onClick={() => gotoElement("HorarioYTarifas")}>Horario y tarifas</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

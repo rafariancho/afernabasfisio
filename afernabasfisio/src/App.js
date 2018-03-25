@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <ParallaxProvider>
-        <div className="App">
+        <div className="App" id ="App">
           <QuickContact />
           <Header />
           <Logo />
