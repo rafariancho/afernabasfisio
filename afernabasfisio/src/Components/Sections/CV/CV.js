@@ -18,7 +18,7 @@ class CV extends Component {
                 <li>Curso Salud musculoesqueletica y dolor crónico por el Instituto de Ciencias de Nutrición y Salud (ICNS).</li> 
                 <li>Curso Nutrición Clinica Avanzada Nivel 1 por el Instituto de Ciencias de Nutrición y Salud (ICNS)</li> 
                 <li>Curso Nutrición Clinica Avanzada Nivel 2 por el Instituto de Ciencias de Nutrición y Salud (ICNS).</li> 
-                <li>Congreso Nutrición Celular Activa: la inflamación silenciosa.</li> 
+                <li>Congreso Nutrición Celular Activa: "La inflamación silenciosa"</li> 
                 <li>Congreso Nutrici&oacute;n Celular Activa: "Abordaje terap&eacute;utico en el s&iacute;ndrome de f&aacute;tiga cr&oacute;nica"</li> 
                 <li>Curso Tratamiento Orofacial y Trastornos del lenguaje</li> 
                 <li>Colegio Fisioterapeutas de Cantabria Nº 39/554</li> 
