@@ -7,12 +7,12 @@ class HorarioYTarifas extends Component {
       return (
         <Menu Title="Horario y tarifas" MenuId="HorarioYTarifas" > 
             <h2>Horario</h2>
-            <h5 class="margin-block-left">Lunes a Jueves de 9:00 a 13:00 y 16:00 a 21:00</h5>
+            <h5 class="margin-block-left">Lunes a Jueves de 9:00 a 13:00 y 16:00 a 20:00</h5>
             <h5 class="margin-block-left">Viernes de 9:00 a 14:00 y 16:00 a 18:00</h5>
 
             <h2>Tarifas por tratamientos: </h2>
             <div class="alert alert-primary  margin-block-left" role="alert">
-              Como verás disponemos de bonos de 10 sesiones en algunos tratamientos así como sesiones sueltas. Para tratamientos de larga duración consultar precio.
+              Como verás disponemos de bonos de sesiones en algunos tratamientos así como sesiones sueltas. Para tratamientos de larga duración consultar precio.
               <br/><br/>
               En caso de cualquier duda, contacta con nosotros a través de nuestro correo electrónico o teléfono.
             </div>
@@ -32,10 +32,7 @@ class HorarioYTarifas extends Component {
               <div class="card-deck mb-3 text-center">
               <Card title="Sesi&oacute;n" price="28€">Sesión individual <br/> (1 hora)</Card>
               <Card title="Sesi&oacute;n" price="35€">Sesión urgencia <br/> (1 hora)</Card>
-              </div>
-              <div class="card-deck mb-3 text-center">
               <Card title="Bono" price="125€">Bono 5 sesiones</Card>
-              <Card title="Bono" price="225€">Bono 10 sesiones</Card>
               </div>
             </div>
             <h2>Ejercicio Terapeútico</h2>
