@@ -20,6 +20,8 @@ class CV extends Component {
                 <li>Congreso Nutrición Celular Activa: la inflamación silenciosa.</li> 
                 <li>Curso Tratamiento Orofacial y Trastornos del lenguaje</li> 
                 <li>Colegio Fisioterapeutas de Cantabria Nº 39/554</li> 
+                <li>Certificado ACSM´S FOUNDATIONS</li> 
+                <li>Congreso nutrici&oacute;n celular activa: "Abordaje terap&eacute;utico en el s&iacute;ndrome de f&aacute;tiga cr&oacute;nica"</li> 
             </ul>
         </Menu>
       );
