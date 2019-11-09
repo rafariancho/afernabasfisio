@@ -30,8 +30,8 @@ class HorarioYTarifas extends Component {
               </Card>
               </div>
               <div class="card-deck mb-3 text-center">
-              <Card title="Sesi&oacute;n" price="30€">Sesión individual <br/> (1 hora)</Card>
-              <Card title="Sesi&oacute;n" price="35€">Sesión urgencia <br/> (1 hora)</Card>
+              <Card title="Sesi&oacute;n" price="30€">Sesión individual <br/></Card>
+              <Card title="Sesi&oacute;n" price="35€">Sesión urgencia <br/></Card>
               <Card title="Consulta" price="48€">Kinesiolog&iacute;a <br/> </Card>
               </div>
             </div>
@@ -41,7 +41,7 @@ class HorarioYTarifas extends Component {
               <Card title="Primera consulta" price="40€">
                 Primera consulta suelo p&eacute;lvico <br/>
               </Card>
-              <Card title="Sesi&oacute;n" price="35€">Sesión individual <br/> (1 hora)</Card>
+              <Card title="Sesi&oacute;n" price="35€">Sesión individual <br/></Card>
               </div>
             </div>
             <h2>Ejercicio Terape&uacute;tico</h2>
