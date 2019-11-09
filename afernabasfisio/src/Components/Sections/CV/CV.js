@@ -34,7 +34,7 @@ class CV extends Component {
                 <li>Tratamiento del C&oacute;lico del Lactante</li> 
                 <li>Terapia manual en la esfera cr&aacute;neo-mand&iacute;bular</li> 
                 <li>S&iacute;ndrome del Dolor Miofascial: Tratamiento Conservador, Punci&oacute;n Seca de los puntos gatillos Miofasciales</li> 
-                <li>Experto en Inducci&oacute;n Miofascia</li> 
+                <li>Experto en Inducci&oacute;n Miofascial</li> 
                 <li>Curso Reeducaci&oacute;n Postural Gimnasia Abdominal Hipopresiva – 5p – Pilates Mat</li> 
                 <li>Jornadas Abordaje Multidisciplinar de los trastornos del equilibrio - sistema vestibular</li> 
                 <li>Colegio Fisioterapeutas de Cantabria Nº 39/742</li> 
