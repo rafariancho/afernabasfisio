@@ -12,7 +12,7 @@ class CV extends Component {
                 <li>Master en Técnicas Osteopáticas del Aparato Locomotor por la Escuela de Osteopatía de Madrid (EOM)</li> 
                 <li>Nivel 4 en Osteopatía por la Escuela de Osteopatía de Madrid (EOM)</li> 
                 <li>Curso Síndrome del Dolor Miofascial: Tratamiento Conservador y Punción Seca de los puntos gatillos Miofasciales</li> 
-                <li>Biomec&acute;nica avanzada del pie y la marcha. Reevolution Athletics.</li> 
+                <li>Biomec&aacute;nica avanzada del pie y la marcha. Reevolution Athletics.</li> 
                 <li>Functional Movement Screen (FMS) Nivel 1</li> 
                 <li>Certificado ACSAS Foundations</li> 
                 <li>Curso Reeducación Postural Método K-Stretch</li> 
