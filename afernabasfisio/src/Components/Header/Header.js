@@ -3,14 +3,9 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
 } from 'reactstrap';
 import './style.css';
 import {gotoElement} from '../../Helpers/NavigationHelper.js';
@@ -35,8 +30,6 @@ class Header extends Component {
       <div id="header">
         <Navbar color="faded" light expand="md">
           <NavbarToggler onClick={this.toggle} />
-          {/* <NavbarBrand href="/">
-          </NavbarBrand> */}
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
               <NavItem>
@@ -44,8 +37,8 @@ class Header extends Component {
                 <NavLink className="cursor-link ios" href="#Servicios">Servicios</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="cursor-link nonIos" onClick={() => gotoElement("Instalaciones")}>Instalaciones</NavLink>
-                <NavLink className="cursor-link ios" href="#Instalaciones">Instalaciones</NavLink>
+                <NavLink className="cursor-link nonIos" onClick={() => gotoElement("Galeria")}>Galeria</NavLink>
+                <NavLink className="cursor-link ios" href="#Galeria">Galeria</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="cursor-link nonIos" onClick={() => gotoElement("Curriculum")}>Curr&iacute;culum</NavLink>
