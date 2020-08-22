@@ -10,12 +10,6 @@ class HorarioYTarifas extends Component {
             <h5 class="margin-block-left">Lunes a Jueves de 9:00 a 13:00 y 16:00 a 21:00</h5>
             <h5 class="margin-block-left">Viernes de 9:00 a 14:00 y 16:00 a 18:00</h5>
 
-            <h2>Tarifas por tratamientos: </h2>
-            <div class="alert alert-primary  margin-block-left" role="alert">
-              Como verás disponemos de bonos de sesiones en algunos tratamientos así como sesiones sueltas. Para tratamientos de larga duración consultar precio.
-              <br/><br/>
-              En caso de cualquier duda, contacta con nosotros a través de nuestro correo electrónico o teléfono.
-            </div>
             <h2>Fisioterapia y Osteopatia</h2>
             <div className="margin-block-left">
               <div class="card-deck mb-3 text-center">
@@ -31,7 +25,6 @@ class HorarioYTarifas extends Component {
               </div>
               <div class="card-deck mb-3 text-center">
               <Card title="Sesi&oacute;n" price="30€">Sesión individual <br/></Card>
-              <Card title="Sesi&oacute;n" price="35€">Sesión urgencia <br/></Card>
               <Card title="Consulta" price="48€">Kinesiolog&iacute;a <br/> </Card>
               </div>
             </div>
@@ -44,17 +37,25 @@ class HorarioYTarifas extends Component {
               <Card title="Sesi&oacute;n" price="35€">Sesión individual <br/></Card>
               </div>
             </div>
-            <h2>Ejercicio Terape&uacute;tico</h2>
-            <div className="margin-block-left">
-              <div class="card-deck mb-3 text-center">
-              <Card title="Sesi&oacute;n" price="30€">Sesión individual</Card>
-              <Card title="Bono" price="260€">Bono 10 sesiones</Card>
-              </div>
-            </div>
             <div className="margin-block-left">
               <div class="card-deck mb-3 text-center">
               <Card title="Grupo" price="40€"> (4 alumnos) <br/>1 clase/semana</Card>
               <Card title="Grupo" price="60€">  (4 alumnos) <br/> 2 clases/semana</Card>
+              </div>
+            </div>
+            <h2>Entrenamiento</h2>
+            <div className="margin-block-left">
+              <div class="card-deck mb-3 text-center">
+              <Card title="Valoraci&oacute;n inicial" price="35€">
+              </Card>
+              </div>
+              <div class="card-deck mb-3 text-center">
+              <Card title="Entrenamiento" price="120€"> (Personal) <br/>1 sesi&oacute;n/semana</Card>
+              <Card title="Entrenamiento" price="200€"> (Personal) <br/>2 sesi&oacute;n/semana</Card>
+              </div>
+              <div class="card-deck mb-3 text-center">
+              <Card title="Entrenamiento" price="70€"> (Parejas) <br/>1 sesi&oacute;n/semana</Card>
+              <Card title="Entrenamiento" price="120€"> (Parejas) <br/>2 sesi&oacute;n/semana</Card>
               </div>
             </div>
         </Menu>

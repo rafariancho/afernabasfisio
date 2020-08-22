@@ -114,7 +114,7 @@ Gallery.propTypes = {
 const gutter = {
 	small: 2,
 	large: '0.7%',
-	xlarge: '0.8%',
+	xlarge: '0.6%',
 };
 const classes = StyleSheet.create({
 	gallery: {
