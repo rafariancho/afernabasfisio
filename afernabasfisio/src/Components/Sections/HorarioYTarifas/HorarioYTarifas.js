@@ -37,12 +37,6 @@ class HorarioYTarifas extends Component {
               <Card title="Sesi&oacute;n" price="35€">Sesión individual <br/></Card>
               </div>
             </div>
-            <div className="margin-block-left">
-              <div class="card-deck mb-3 text-center">
-              <Card title="Grupo" price="40€"> (4 alumnos) <br/>1 clase/semana</Card>
-              <Card title="Grupo" price="60€">  (4 alumnos) <br/> 2 clases/semana</Card>
-              </div>
-            </div>
             <h2>Entrenamiento</h2>
             <div className="margin-block-left">
               <div class="card-deck mb-3 text-center">
