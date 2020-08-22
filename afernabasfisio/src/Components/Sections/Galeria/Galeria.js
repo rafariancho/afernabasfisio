@@ -157,7 +157,7 @@ class Galeria extends Component {
   render() {
 
     return (
-      <Menu Title="galeria" MenuId="galeria" >
+      <Menu Title="galeria" MenuId="Galeria" >
       <p className="margin-block-left">Centro de fisioterapia y osteopatía donde cada persona recibirá tratamiento de máxima calidad adaptado a sus necesidades específicas. </p>
       <p className="margin-block-left gallery-spacer">
         <Gallery images={DEFAULT_IMAGES.map(({ caption, id, orientation, useForDemo }) => ({
