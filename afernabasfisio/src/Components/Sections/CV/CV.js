@@ -15,6 +15,7 @@ class CV extends Component {
                 <li>Biomec&aacute;nica avanzada del pie y la marcha. Reevolution Athletics.</li> 
                 <li>Functional Movement Screen (FMS) Nivel 1</li> 
                 <li>Certificado ACSAS Foundations</li> 
+                <li>Human performance Specialist nivel 1 (Movement Matters)</li> 
                 <li>Curso Reeducación Postural Método K-Stretch</li> 
                 <li>Curso La Fisioterapia en el Deporte </li> 
                 <li>Curso Fisioterapia Visceral: La importancia de la nutrición en la patología osteomuscular</li> 
@@ -40,6 +41,21 @@ class CV extends Component {
                 <li>Curso Reeducaci&oacute;n Postural Gimnasia Abdominal Hipopresiva – 5p – Pilates Mat</li> 
                 <li>Jornadas Abordaje Multidisciplinar de los trastornos del equilibrio - sistema vestibular</li> 
                 <li>Colegio Fisioterapeutas de Cantabria Nº 39/742</li> 
+            </ul>
+            <h2>Marta Bolado Noriega</h2>
+            <ul className="CVList">
+              <li>Graduada en fisioterapia en la Universidad Pontificia de Comillas</li> 
+              <li>Master en fisioterapia deportiva y readaptación de lesiones (U. Gimbernat)</li> 
+              <li>Master en osteopatía estructural del aparato locomotor (Escuela Osteopatia de Madrid)</li> 
+              <li>Experta en Pilates suelo, máquinas y aéreo (AEFEP)</li> 
+              <li>Master-Experta en Gimnasia Abdominal Hipopresiva (Marcel Caufriez)</li> 
+              <li>Fisioterapia conservadora e invasiva (punción seca) de puntos gatillo miofasciales (Travell y Simons)</li> 
+              <li>Tratamiento integral del sistema fascial (ITNM)</li> 
+              <li>Valoración y tratamiento de ATM: Disfunciones temporo-mandibulares</li> 
+              <li>Análisis biomecánico y tratamiento integral del triatleta</li> 
+              <li>Análisis Biomecánico de la marcha y carrera a pie (I-Biomecanics)</li> 
+              <li>Atención integral al corredor (I-Biomecanics)</li> 
+              <li>Colegio Fisioterapeutas de Cantabria Nº 39/638</li>
             </ul>
         </Menu>
       );

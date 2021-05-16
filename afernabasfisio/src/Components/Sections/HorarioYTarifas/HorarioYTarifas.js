@@ -13,8 +13,8 @@ class HorarioYTarifas extends Component {
             <h2>Fisioterapia y Osteopatia</h2>
             <div className="margin-block-left">
               <div class="card-deck mb-3 text-center">
-              <Card title="Primera consulta" price="35€">
-                Primera consulta fisioterapia <br/> (1 hora)
+              <Card title="Primera consulta" price="40€">
+                Primera consulta fisioterapia <br/>
                 <ul>
                   <li>Historia cl&iacute;nica</li>
                   <li>Valoraci&oacute;n inicial</li>
@@ -26,6 +26,10 @@ class HorarioYTarifas extends Component {
               <div class="card-deck mb-3 text-center">
               <Card title="Sesi&oacute;n" price="30€">Sesión individual <br/></Card>
               <Card title="Consulta" price="48€">Kinesiolog&iacute;a <br/> </Card>
+              </div>
+              <div class="card-deck mb-3 text-center">
+              <Card title="Sesi&oacute;n" price="24€">Sesión individual 30' <br/></Card>
+              <Card title="Sesi&oacute;n" price="40€">Ondas de choque <br/> </Card>
               </div>
             </div>
             <h2>Suelo P&eacute;lvico</h2>
