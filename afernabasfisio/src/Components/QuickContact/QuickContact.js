@@ -1,17 +1,4 @@
 import React, { Component } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from 'reactstrap';
 import './style.css';
 import Whatsapp from 'react-icons/lib/fa/whatsapp';
 import Mobile from 'react-icons/lib/md/phone';
