@@ -1,5 +1,3 @@
-
-/* eslint-disable */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { css, StyleSheet } from 'aphrodite/no-important';
@@ -186,5 +184,3 @@ const classes = StyleSheet.create({
 	},
 });
 export default Gallery;
-
-/* eslint-enable */
