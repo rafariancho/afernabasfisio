@@ -1,3 +1,5 @@
+
+/* eslint-disable */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { css, StyleSheet } from 'aphrodite/no-important';
@@ -5,7 +7,6 @@ import Lightbox from 'react-images';
 
 class Gallery extends Component {
 	constructor () {
-		// eslint-disable-next-line no-useless-constructor
 		super();
 
 		this.state = {
@@ -78,7 +79,6 @@ class Gallery extends Component {
 		);
 	}
 	render () {
-		// eslint-disable-next-line no-unused-vars
 		return (
 			<div className="section">
 				{this.props.heading && <h2>{this.props.heading}</h2>}
@@ -185,5 +185,6 @@ const classes = StyleSheet.create({
 		width: 'auto',
 	},
 });
-
 export default Gallery;
+
+/* eslint-enable */

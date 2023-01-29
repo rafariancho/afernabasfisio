@@ -96,6 +96,7 @@ const DEFAULT_IMAGES = [
   },
 ];
 
+/* eslint-disable */
 const theme = {
   // container
   container: {
@@ -151,9 +152,6 @@ const theme = {
 };
 
 class Galeria extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
 
     return (
@@ -178,3 +176,5 @@ class Galeria extends Component {
 }
 
 export default Galeria;
+
+/* eslint-enable */
