@@ -5,6 +5,7 @@ import Lightbox from 'react-images';
 
 class Gallery extends Component {
 	constructor () {
+		// eslint-disable-next-line no-useless-constructor
 		super();
 
 		this.state = {
@@ -65,7 +66,7 @@ class Gallery extends Component {
 					key={i}
 					onClick={(e) => this.openLightbox(i, e)}
 				>
-					<img src={obj.thumbnail} className={css(classes.source)} />
+					<img src={obj.thumbnail} className={css(classes.source)} alt="thumbnail"/>
 				</a>
 			);
 		});
@@ -77,6 +78,7 @@ class Gallery extends Component {
 		);
 	}
 	render () {
+		// eslint-disable-next-line no-unused-vars
 		return (
 			<div className="section">
 				{this.props.heading && <h2>{this.props.heading}</h2>}

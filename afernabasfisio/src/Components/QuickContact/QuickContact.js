@@ -10,11 +10,7 @@ import Home from 'react-icons/lib/fa/home';
 import {gotoElement} from '../../Helpers/NavigationHelper.js';
 
 class QuickContact extends Component {
-  constructor(props) {
-    super(props);
-  }
-  
-  render() {
+   render() {
     return (
       <div className="sticky-top d-flex flex-row justify-content-around justify-content-md-end align-items-center quick-contact">
         
