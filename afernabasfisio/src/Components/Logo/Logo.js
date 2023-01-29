@@ -7,7 +7,7 @@ class Logo extends Component {
     return (
       <div className="ImgContainer box-shadow">
         <div className="layer1">
-          <img src={require("../../imgs/Logo.png")} width="35%" className="logo"/> 
+          <img src={require("../../imgs/Logo.png")} width="35%" className="logo" alt="logo"/> 
         </div>
         <Parallax
           //className="custom-class"
@@ -16,7 +16,7 @@ class Logo extends Component {
           slowerScrollRate
           tag="figure"
         >
-          <img src={require("../../imgs/masaje.jpg")} width="100%" className="imgBackground" />
+          <img src={require("../../imgs/masaje.jpg")} width="100%" className="imgBackground" alt="background" />
         </Parallax>
       </div>
     );
